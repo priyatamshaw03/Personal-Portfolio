@@ -962,7 +962,7 @@ footer p{
         font-size: 50px;
     }
     .home .home-content .text-3{
-        font-size: 28px;
+        font-size: 24px;
         width: auto;
     }
     .home .home-content .text-4{
@@ -1206,7 +1206,7 @@ footer p{
         transform: rotate(-90deg) translate(-110px, -220px);
     }
     .home .profession-box .profession:nth-child(2) {
-        transform: rotate(0deg) translate(5px, -325px);
+        transform: rotate(0deg) translate(5px, -328px);
     }
     .home .profession-box .profession:nth-child(3) {
         transform: rotate(90deg) translate(-95px, -430px);
@@ -1219,7 +1219,7 @@ footer p{
     }
     .contact .contact-content .left img{
         width: auto;
-        height: 280px;
+        height: 285px;
     }
     .footer {
         flex-direction: column-reverse;
