@@ -1209,10 +1209,10 @@ footer p{
         transform: rotate(0deg) translate(5px, -325px);
     }
     .home .profession-box .profession:nth-child(3) {
-        transform: rotate(90deg) translate(-85px, -430px);
+        transform: rotate(90deg) translate(-85px, -410px);
     }
     .home .profession-box .profession:nth-child(4) {
-        transform: rotate(180deg) translate(-170px, -320px);
+        transform: rotate(180deg) translate(-150px, -340px);
     }
     .home .profession-container .overlay {
         top: 85rem;
