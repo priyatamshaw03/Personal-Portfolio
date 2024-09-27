@@ -1215,11 +1215,11 @@ footer p{
         transform: rotate(180deg) translate(-160px, -325px);
     }
     .home .profession-container .overlay {
-        top: 80rem;
+        top: 85rem;
     }
     .contact .contact-content .left img{
         width: auto;
-        height: 270px;
+        height: 280px;
     }
     .footer {
         flex-direction: column-reverse;
