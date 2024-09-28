@@ -85,10 +85,9 @@ section .title::after{
     transform: translateX(-50%);
 }
 .logo {
-    font-size: 3.5rem;
-    color: var(--text-color);
-    font-weight: 600;
-    margin-right: auto;
+    width: auto;
+    height: 45px;
+    
 }
 .navbar a {
     position: relative;
