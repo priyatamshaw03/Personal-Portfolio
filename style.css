@@ -211,12 +211,12 @@ section {
 }
 .home .home-content .social-icon a:hover{
     background: var(--main-color);
-    color: var(--bg-color);
+    color: var(--white-color);
 }
 .home .home-content .link{
     display: inline-block;
     background: var(--main-color);
-    color: var(--bg-color);
+    color: var(--white-color);
     font-size: 16px;
     padding: 10px 25px;
     margin-top: 35px;
@@ -346,7 +346,7 @@ span {
 .about .about-content .right a{
     display: inline-block;
     background: var(--main-color);
-    color: var(--bg-color);
+    color: var(--white-color);
     font-size: 16px;
     padding: 10px 24px;
     margin-top: 30px;
@@ -811,7 +811,7 @@ span {
 .right form .button-area button{
     display: inline-block;
     background: var(--main-color);
-    color: var(--bg-color);
+    color: var(--white-color);
     font-size: 18px;
     font-weight: 500;
     padding: 9px 30px;
