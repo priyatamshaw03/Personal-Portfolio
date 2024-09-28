@@ -84,7 +84,7 @@ section .title::after{
     background: var(--bg-color);
     transform: translateX(-50%);
 }
-.logo {
+.logo img{
     width: auto;
     height: 45px;
     
