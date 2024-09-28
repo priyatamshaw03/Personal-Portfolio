@@ -312,7 +312,7 @@ section {
 .home-img img {
     position: absolute;
     bottom: 10px;
-    right: 100px;
+    right: 110px;
     filter: drop-shadow(-5px 5px 10px var(--white-color));
 }
 span {
