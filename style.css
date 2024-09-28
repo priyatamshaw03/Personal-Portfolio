@@ -87,7 +87,7 @@ section .title::after{
 .logo img{
     width: auto;
     height: 45px;
-    
+    margin-right: auto;
 }
 .navbar a {
     position: relative;
