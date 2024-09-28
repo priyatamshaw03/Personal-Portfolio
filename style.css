@@ -85,7 +85,7 @@ section .title::after{
     transform: translateX(-50%);
 }
 .logo img{
-    width: auto;
+    width: 100%;
     height: 45px;
     margin-right: auto;
 }
