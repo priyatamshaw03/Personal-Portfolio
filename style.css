@@ -355,6 +355,9 @@ span {
     transition: all 0.3s ease-in-out;
     box-shadow: 0 0 10px var(--main-color);
 }
+.about .about-content .right a i{
+    transform: rotate(90deg);
+}
 .about .about-content .right a:hover{
     color: var(--main-color);
     background: none;
@@ -623,7 +626,6 @@ span {
     position: relative;
     display: flex;
     border-radius: 2rem;
-    border: 2px solid var(--main-color);
     overflow: hidden;
 }
 .project-box img {
