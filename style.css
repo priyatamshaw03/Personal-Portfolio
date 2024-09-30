@@ -182,7 +182,7 @@ section {
     color: var(--main-color);
 }
 .home .home-content .text-3{
-    font-size: 34px;
+    font-size: 30px;
     margin: 5px 0;
     margin-bottom: 10px;
 }
@@ -1082,7 +1082,7 @@ footer p{
         transform-origin: 0;
     }
     .home .profession-box .profession:nth-child(1) {
-        transform: rotate(-90deg) translate(-115px, -210px);
+        transform: rotate(-90deg) translate(-140px, -170px);
     }
     .home .profession-box .profession:nth-child(1) i {
         margin-right: 0;
@@ -1204,7 +1204,7 @@ footer p{
         right: 7.5rem;
     }
     .home .profession-box .profession:nth-child(1) {
-        transform: rotate(-90deg) translate(-105px, -220px);
+        transform: rotate(-90deg) translate(-130px, -190px);
     }
     .home .profession-box .profession:nth-child(2) {
         transform: rotate(0deg) translate(5px, -325px);
