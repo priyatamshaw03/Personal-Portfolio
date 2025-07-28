@@ -325,7 +325,7 @@ span {
 }
 .skills .skills-content .left{
     font-family: "ubuntu", sans-serif;
-    height: 460px;
+    height: 480px;
 }
 .skills .skills-content .left .text,
 .skills .skills-content .right .text{
@@ -347,43 +347,38 @@ span {
     font-weight: 500;
     font-size: 18px;
 }
-.skills .skills-content .left .line{
-    height: 8px;
-    width: 100%;
-    background: lightgrey;
-    position: relative;
-    border-radius: 10px;
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px;
+  justify-items: center;
 }
-.skills .skills-content .left .line::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: var(--main-color);
-    border-radius: 10px;
+
+.skill-box {
+  background: #fff;
+  border-top: 3px solid var(--main-color, #4CAF50);
+  border-bottom: 3px solid var(--main-color, #4CAF50);
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  transition: transform 0.3s ease;
 }
-.skills-content .left .html::before{
-    width: 90%;
+
+.skill-box img {
+  max-width: 100%;
+  max-height: 60px;
+  object-fit: contain;
 }
-.skills-content .left .css::before{
-    width: 68%;
+
+.skill-box:hover {
+  transform: translateY(-5px);
 }
-.skills-content .left .js::before{
-    width: 35%;
-}
-.skills-content .left .c::before{
-    width: 60%;
-}
-.skills-content .left .python::before{
-    width: 72%;
-}
-.skills-content .left .mysql::before{
-    width: 63%;
-}
-.skills-content .left .java::before{
-    width: 45%;
-}
+
 .experience-container {
     display: flex;
     justify-content: center;
@@ -968,9 +963,7 @@ footer p{
     .skills .skills-content .right h3{
       margin-top: 25px;
     }
-    .skills .skills-content .right .bars{
-        margin-top: 30px;
-    }
+    
     
 }
 @media (max-width: 668px){
