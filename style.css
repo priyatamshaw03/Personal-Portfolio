@@ -323,9 +323,10 @@ span {
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
-.skills .skills-content .left{
+.skills .skills-content .left,
+.skills .skills-content .right{
     font-family: "ubuntu", sans-serif;
-    height: 480px;
+    height: 550px;
 }
 .skills .skills-content .left .text,
 .skills .skills-content .right .text{
@@ -347,37 +348,45 @@ span {
     font-weight: 500;
     font-size: 18px;
 }
+
 .skills-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 20px;
   justify-items: center;
+
 }
 
 .skill-box {
   background: var(--bg-color);
-  border-top: 3px solid var(--main-color, #4CAF50);
-  border-bottom: 3px solid var(--main-color, #4CAF50);
-  padding: 12px;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100px;
-  width: 100px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-top: 3px solid var(--main-color);
+  border-bottom: 3px solid var(--main-color);
+  text-align: center;
+  padding: 20px 10px;
   transition: transform 0.3s ease;
-}
-
-.skill-box img {
-  max-width: 100%;
-  max-height: 60px;
-  object-fit: contain;
+  width: 100px;
+  height: 115px;
 }
 
 .skill-box:hover {
   transform: translateY(-5px);
 }
+
+.skill-box img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.skill-box p {
+  margin: 0;
+  font-size: 14px;
+  
+}
+
 
 .experience-container {
     display: flex;
@@ -582,7 +591,7 @@ span {
     transition: .5s ease;
 }
 .project-box:hover img {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .project-box .project-layer {
     position: absolute;
