@@ -355,7 +355,7 @@ span {
 }
 
 .skill-box {
-  background: #fff;
+  background: var(--bg-color);
   border-top: 3px solid var(--main-color, #4CAF50);
   border-bottom: 3px solid var(--main-color, #4CAF50);
   padding: 12px;
