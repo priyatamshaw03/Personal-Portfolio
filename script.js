@@ -81,7 +81,7 @@ ScrollReveal({
     delay: 200
 });
 
-ScrollReveal().reveal('.home-content, .heading, .about-content .left img, .education-content', { origin: 'top' });
-ScrollReveal().reveal('.home-img img, .services-container, .portfolio-box, .testimonial-wrapper, .contact-content', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content, .heading, .about-content .left img', { origin: 'top' });
+ScrollReveal().reveal('.home-img img, .services-container, .portfolio-box, .education-content, .testimonial-wrapper, .contact-content', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content .text-2,.skills .right', { origin: 'left' });
 ScrollReveal().reveal('.home-content .text-3, .home-content p, .about-content .right,.skills .left,.project-container', { origin: 'right' });

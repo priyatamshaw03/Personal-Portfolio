@@ -86,7 +86,7 @@ section .title::after{
 }
 .logo img {
     width: 100%;
-    height: 36px;
+    height: 32px;
 }
 .logo {
     margin-right: auto;
@@ -182,7 +182,10 @@ section {
     font-size: 62px;
     font-weight: 600;
     margin-left: -3px;
-    color: var(--main-color);
+    background: linear-gradient(to right, #661FFF, #FF1994, #2D73FF);
+    -webkit-background-clip: text; /* For Safari/Chrome */
+    background-clip: text;
+    color: transparent;
 }
 .home .home-content .text-3{
     font-size: 30px;
@@ -267,7 +270,7 @@ section {
 
 .home-img img {
     width: auto;
-    height: 500px;
+    height: 550px;
     margin-left: 110px;
 }
 span {
@@ -742,14 +745,16 @@ footer{
 }
 .box h3{
     font-size: 20px;
-    margin-top: 15px;
+    margin: 15px 0;
+
+
 }
 .footer .box a {
     font-size: 1.8rem;
     color: var(--text-color);
     padding: 10px;
     display: inline-block;
-    margin-bottom: -15px;
+    
 }
 .footer .box a:hover {
     color: var(--main-color);
